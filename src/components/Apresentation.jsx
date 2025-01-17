@@ -53,6 +53,7 @@ const PhotoContainer = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
+  margin-right: 80px;
 `;
 
 const Photo = styled.img`

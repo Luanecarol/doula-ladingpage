@@ -41,7 +41,7 @@ const Logo = styled.img`
   width: 80px;
 
   @media (max-width: 768px) {
-    width: 60px;
+    width: 40px;
   }
 `;
 
@@ -80,7 +80,7 @@ const ListItem = styled.li`
   }
 
   @media (max-width: 768px) {
-    font-size: 14px;
+    font-size: 10px;
   }
 `;
 
@@ -102,8 +102,8 @@ const WhatsappButton = styled.a`
   }
 
   @media (max-width: 768px) {
-    width: 40px;
-    height: 40px;
+    width: 15px;
+    height: 15px;
     font-size: 20px;
   }
 `;
