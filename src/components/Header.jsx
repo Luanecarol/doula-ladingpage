@@ -41,7 +41,7 @@ const Logo = styled.img`
   width: 80px;
 
   @media (max-width: 768px) {
-    width: 40px;
+    width: 20px;
   }
 `;
 
