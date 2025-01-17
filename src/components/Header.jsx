@@ -102,9 +102,10 @@ const WhatsappButton = styled.a`
   }
 
   @media (max-width: 768px) {
+    mergin-left: 15px;
     width: 15px;
     height: 15px;
-    font-size: 20px;
+    font-size: 25px;
   }
 `;
 
