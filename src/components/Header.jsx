@@ -102,7 +102,7 @@ const WhatsappButton = styled.a`
   }
 
   @media (max-width: 768px) {
-    mergin-right: 15px;
+    mergin-left: 15px;
     width: 15px;
     height: 15px;
     font-size: 20px;
@@ -158,7 +158,7 @@ const Header = () => {
               Clientes
             </a>
           </ListItem>
-          <ListItem>
+          <ListItem style={{ marginLeft: "10px" }}>
             <a onClick={() => scrollToSection("contact")} href="#contact">
               Contato
             </a>
