@@ -104,7 +104,7 @@ const WhatsappButton = styled.a`
   @media (max-width: 768px) {
     width: 15px;
     height: 15px;
-    margin-left: 30px;
+    margin-left: 20px;
   }
 `;
 
