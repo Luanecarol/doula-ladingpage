@@ -123,7 +123,7 @@ const Apresentation = () => {
           <div style={{ display: "flex", gap: "10px", alignItems: "center" }}>
             <div>
               <a
-                href="https://www.instagram.com"
+                href="https://www.instagram.com/o_cantinhodadoula/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -137,7 +137,7 @@ const Apresentation = () => {
             <div>
               {" "}
               <a
-                href="https://wa.me/123456789"
+                href="https://wa.me/5511954402939"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -153,7 +153,7 @@ const Apresentation = () => {
 
         <PhotoContainer>
           <Photo1 src="/perfil.png" alt="Foto 1" />
-          <Photo2 src="/perfil.png" alt="Foto 2" />
+          <Photo2 src="/photo2.jpg" alt="Foto 2" />
         </PhotoContainer>
       </SectionContainer>
     </>
