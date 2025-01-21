@@ -5,6 +5,19 @@ import photo2 from "./../../public/photo2.jpg";
 import photo3 from "./../../public/photo3.jpg";
 import photo4 from "./../../public/photo4.jpg";
 import photo5 from "./../../public/photo5.jpg";
+import photo6 from "./../../public/photo6.jpg";
+import photo7 from "./../../public/photo7.jpg";
+import photo8 from "./../../public/photo8.jpg";
+import photo10 from "./../../public/photo10.jpg";
+import photo11 from "./../../public/photo11.jpg";
+import photo12 from "./../../public/photo12.jpg";
+import photo13 from "./../../public/photo13.jpg";
+import photo14 from "./../../public/photo14.jpg";
+import photo15 from "./../../public/photo15.jpg";
+import photo16 from "./../../public/photo16.jpg";
+import photo17 from "./../../public/photo17.jpg";
+import photo18 from "./../../public/photo18.jpg";
+import photo19 from "./../../public/photo19.jpg";
 
 const Section = styled.section`
   padding: 50px 20px;
@@ -76,64 +89,39 @@ const OverlayText = styled.p`
 `;
 
 const Gallery = () => {
+  const photos = [
+    photo1,
+    photo2,
+    photo3,
+    photo4,
+    photo5,
+    photo6,
+    photo7,
+    photo8,
+    photo10,
+    photo11,
+    photo12,
+    photo13,
+    photo14,
+    photo15,
+    photo16,
+    photo17,
+    photo18,
+    photo19,
+  ];
+
   return (
     <Section id="client">
       <Title>Confira momentos com minhas clientes</Title>
       <GalleryContainer>
-        <PhotoCard>
-          <Photo src={photo1} alt="Cliente 1" />
-          <PhotoOverlay>
-            <OverlayText>Momento Especial 1</OverlayText>
-          </PhotoOverlay>
-        </PhotoCard>
-        <PhotoCard>
-          <Photo src={photo2} alt="Cliente 2" />
-          <PhotoOverlay>
-            <OverlayText>Momento Especial 2</OverlayText>
-          </PhotoOverlay>
-        </PhotoCard>
-        <PhotoCard>
-          <Photo src={photo3} alt="Cliente 3" />
-          <PhotoOverlay>
-            <OverlayText>Momento Especial 3</OverlayText>
-          </PhotoOverlay>
-        </PhotoCard>
-        <PhotoCard>
-          <Photo src={photo4} alt="Cliente 4" />
-          <PhotoOverlay>
-            <OverlayText>Momento Especial 4</OverlayText>
-          </PhotoOverlay>
-        </PhotoCard>
-        <PhotoCard>
-          <Photo src={photo5} alt="Cliente 5" />
-          <PhotoOverlay>
-            <OverlayText>Momento Especial 5</OverlayText>
-          </PhotoOverlay>
-        </PhotoCard>
-        <PhotoCard>
-          <Photo src={photo5} alt="Cliente 6" />
-          <PhotoOverlay>
-            <OverlayText>Momento Especial 6</OverlayText>
-          </PhotoOverlay>
-        </PhotoCard>
-        <PhotoCard>
-          <Photo src={photo4} alt="Cliente 6" />
-          <PhotoOverlay>
-            <OverlayText>Momento Especial 6</OverlayText>
-          </PhotoOverlay>
-        </PhotoCard>
-        <PhotoCard>
-          <Photo src={photo1} alt="Cliente 6" />
-          <PhotoOverlay>
-            <OverlayText>Momento Especial 6</OverlayText>
-          </PhotoOverlay>
-        </PhotoCard>
-        <PhotoCard>
-          <Photo src={photo2} alt="Cliente 6" />
-          <PhotoOverlay>
-            <OverlayText>Momento Especial 6</OverlayText>
-          </PhotoOverlay>
-        </PhotoCard>
+        {photos.map((photo, index) => (
+          <PhotoCard key={index}>
+            <Photo src={photo} alt={`Cliente ${index + 1}`} />
+            <PhotoOverlay>
+              <OverlayText> 💝</OverlayText>
+            </PhotoOverlay>
+          </PhotoCard>
+        ))}
       </GalleryContainer>
     </Section>
   );
