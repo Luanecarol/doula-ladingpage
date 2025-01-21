@@ -86,9 +86,11 @@ const ServicesPlus = () => {
           alt="Imagem Despedida da Barriga"
           title="Despedida Da Barriga"
           items={[
-            "Acompanhamento completo",
-            "Suporte emocional contínuo",
-            "Técnicas de alívio da dor",
+            "Escalda pés com ervas aromáticas com óleos essenciais, flores e sais para ajudar no tratamento de retenção de líquidos melhorando o desconforto nos pés",
+            "Massagens com óleos essências promovendo o relaxamento e melhorando a questão da ansiedade que sabemos que é muito comum na reta final da gestação",
+            "Homenagens através de vídeos e cartas escritas por seus amigos e familiares",
+            "Lembretes com frases motivacionais",
+            "Arte Gestacional",
           ]}
         />
         <ServiceCard
@@ -96,9 +98,12 @@ const ServicesPlus = () => {
           alt="Imagem Curso para Pais de Primeira Viagem"
           title="Curso para pais de primeira viagem"
           items={[
-            "Orientação emocional",
-            "Ajuda com exercícios de relaxamento",
-            "Preparação para o parto",
+            "Encontros online aonde abordaremos:",
+            "Cultura do parto no Brasil e Fases do trabalho de parto, Cuidados com o recém nascido",
+            "Confecção do plano de parto",
+            "Exterogestação",
+            "Rede de apoio evidenciando a importância da interação do acompanhante",
+            "Workshop sobre Amamentação onde falaremos sobre o manejo e intercorrências e esclarecemos todas as suas dúvidas e as do seu acompanhante.",
           ]}
         />
         <ServiceCard
@@ -106,9 +111,10 @@ const ServicesPlus = () => {
           alt="Imagem Consultoria de Amamentação"
           title="Consultoria de Amamentação"
           items={[
-            "Ajuda na amamentação",
+            "Assistência as principais queixas da mãe",
             "Orientação para recuperação",
-            "Conexão com a rede de suporte",
+            "Orientações práticas sobre pega correta",
+            "posições para amamentar e cuidados com as mamas.",
           ]}
         />
       </CardsContainer>
