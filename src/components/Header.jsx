@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styled, { keyframes } from "styled-components";
-import logo from "./../assets/logo.png";
+import logo from "./../../public/perfil.jpeg";
 import { FaWhatsapp } from "react-icons/fa";
 
 const pulse = keyframes`
@@ -38,10 +38,10 @@ const ContainerLogo = styled.div`
 `;
 
 const Logo = styled.img`
-  width: 80px;
+  width: 150px;
 
   @media (max-width: 768px) {
-    width: 20px;
+    width: 60px;
   }
 `;
 
@@ -166,7 +166,7 @@ const Header = () => {
       </Nav>
 
       <WhatsappButton
-        href="https://wa.me/5551999999999"
+        href="https://wa.me/11954402939"
         target="_blank"
         aria-label="Entre em contato pelo WhatsApp"
       >

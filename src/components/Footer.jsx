@@ -71,7 +71,7 @@ const Footer = () => {
       </BrandSubtitle>
       <ContactContainer>
         <a
-          href="https://www.instagram.com/doula_kamila"
+          href="https://www.instagram.com/o_cantinhodadoula/"
           target="_blank"
           rel="noopener noreferrer"
           title="Instagram"
@@ -82,7 +82,7 @@ const Footer = () => {
             style={{ width: "32px", height: "32px" }}
           />
         </a>
-        <a href="mailto:doula@example.com" title="Enviar Email">
+        <a href="kamila_nutri.doula@hotmail.com" title="Enviar Email">
           <img
             src="/email.png"
             alt="Email"
@@ -90,7 +90,7 @@ const Footer = () => {
           />
         </a>
         <a
-          href="https://wa.me/123456789"
+          href="https://wa.me/11954402939"
           target="_blank"
           rel="noopener noreferrer"
           title="WhatsApp"
