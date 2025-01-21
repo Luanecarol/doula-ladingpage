@@ -130,7 +130,13 @@ const HeroSection = () => {
           </OverlayContent>
         </SwiperSlide>
 
-        <SwiperSlide style={{ backgroundImage: `url('/doula.jpg')` }}>
+        <SwiperSlide
+          style={{
+            backgroundImage: `url('/doula.jpg')`,
+            backgroundPosition: "center 70%", // Mantém a centralização padrão
+            backgroundSize: "cover", // Garante que a imagem cubra o slide
+          }}
+        >
           <OverlayContent>
             <Title>Apoio Personalizado</Title>
             <SubTitle>Caminhe conosco nessa jornada</SubTitle>
